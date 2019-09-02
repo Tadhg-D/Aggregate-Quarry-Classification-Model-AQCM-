@@ -1,4 +1,4 @@
-# Aggregate-Quarry-Classification-Model-AQCM-
+# Aggregate Quarry Classification Model (AQCM)
 User guide for the Aggregate quarry classification model (AQCM)
 
 # Software needed to run AQCM
