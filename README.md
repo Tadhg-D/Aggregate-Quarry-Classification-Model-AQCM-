@@ -59,6 +59,4 @@ to be saved within the model folder.
 
 ## CSV Output file
 
-Once prediction is complete, a CSV file similar to ``output.csv`` will appear in the model folder. This file will show the **Prediction** and **Probability** for each sample. The **prediction** is the source with which the model has classified the sample as basaed on its geochemistry, while the **probability** is the likelihood of that sample being classified as one of the sources included in the investigation. This is scored between 0-1, with 1 being extremely likely and 0 being extremely unlikely. 
-
-However, probability scores are only calculated by the model when using the logistic regression model as this is based based on the logistic function which relates the probability of a given event to a linear combination of predictors. 
+Once prediction is complete, a CSV file similar to ``output.csv`` will appear in the model folder. This file will show the **Prediction** and **Probability score** for each sample. The **prediction** is the source which the model has classified the sample, while the **probability score** is the likelihood of that sample being classified as one of the sources included in the investigation. This is scored between 0-1, with 1 being extremely likely and 0 being extremely unlikely. However, probability scores are only calculated when using the logistic regression model as this is based based on the logistic function which relates the probability of a given event to a linear combination of predictors. 
