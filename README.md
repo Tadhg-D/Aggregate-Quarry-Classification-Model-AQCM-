@@ -18,7 +18,7 @@ and ``model_tree.pkl``.
 # Training the AQCM
 The model first needs to be trained. To train the model, set ``mode`` equal to ``train``. The model will then expect a CSV file to be inputted. 
 To input the CSV file set ``filename``to equal the file destination, this is the **full** folder and filename (e.g. *r"C:\Users\Documents\file1"*). The file destination link is found by
-holding the **Shift key** and **right-clicking** on the desired file. 
+holding the **Shift key**, **right-clicking** on the desired file and choosing **Copy as path**.
 
 ***For Windows users please ensure that the ***r*** is placed before the pathway link to the file***.
 
@@ -30,7 +30,7 @@ needed for classification are "Fe, S, Co and Pb", please ensure that the ``feats
 
 ***DO NOT INCLUDE "SOURCE" WITHIN THE ``feats = [] ``***
 
-Finally, ensure that ``target = []`` equals to "Source" or whatever term you would like to classify your data by. For instance, f you are classifying "Rock type"
+Finally, ensure that ``target = []`` equals to "Source" or whatever term you would like to classify your data by. For instance, if you are classifying "Rock type"
 or "Rock formation", ensure that ``target = [] `` equals to these terms (e.g. ``target = ["Rock type"] `` and that they are included as the first column
 of the CSV file.
 
