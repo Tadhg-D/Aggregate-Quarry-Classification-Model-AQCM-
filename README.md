@@ -25,7 +25,8 @@ holding the **Shift key**, **right-clicking** on the desired file and choosing *
 Next decide which model you want to train/predeict with.  For **Logistic Regresion** set ``model_type`` equal to *linear*, for the **Random Forest** model 
 set it to *tree*.
 
-The next step is to input the column names from the CSV file into the ``feats = [] ``. It doesn't matter what other columns are included in the training/testing csv files, and it doesn't matter what order they appear in, so long as the columns listed in ``feats`` and ``target`` are included as part of the csv file.
+The next step is to input the column names from the CSV file into the ``feats = [] ``. It doesn't matter what other are included in the training/testing csv files, and it doesn't matter what order they appear in, so long as the columns listed in ``feats`` and ``target`` are included as part of the csv file.
+
 ***DO NOT INCLUDE "SOURCE" WITHIN THE ``feats = [] ``***
 
 Finally, ensure that ``target = []`` equals to "Source" or whatever term you would like to classify your data by. For instance, if you are classifying "Rock type"
