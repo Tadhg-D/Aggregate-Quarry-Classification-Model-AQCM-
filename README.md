@@ -25,9 +25,7 @@ holding the **Shift key**, **right-clicking** on the desired file and choosing *
 Next decide which model you want to train/predeict with.  For **Logistic Regresion** set ``model_type`` equal to *linear*, for the **Random Forest** model 
 set it to *tree*.
 
-The next step is to input the column names from the CSV file into the ``feats = [] ``. If the elements/column names 
-needed for classification are "Fe, S, Co and Pb", please ensure that the ``feats = [] `` equals to ``feats = ["Fe", "S", "Co", "Pb"] ``. 
-
+The next step is to input the column names from the CSV file into the ``feats = [] ``. It doesn't matter what other columns are included in the training/testing csv files, and it doesn't matter what order they appear in, so long as the columns listed in ``feats`` and ``target`` are included as part of the csv file.
 ***DO NOT INCLUDE "SOURCE" WITHIN THE ``feats = [] ``***
 
 Finally, ensure that ``target = []`` equals to "Source" or whatever term you would like to classify your data by. For instance, if you are classifying "Rock type"
@@ -49,7 +47,7 @@ are contained with the ``feats = []``. The easiest way to ensure this is done is
 
 # Testing the AQCM
 
-To test the model set ``mode`` to equal ``predict``. Next enter the training dataset CSV into ``filename =``, this CSV file should be formatted 
+To test the model set ``mode`` to equal ``predict``. Next enter the testing dataset CSV into ``filename =``, this CSV file should be formatted 
 much like the ``AQCM_training_data.csv``, however, "Source" column should not be contained as this is what the model will try to predict.
 
 Next, re run the model using *Cell* and *Run all*.
