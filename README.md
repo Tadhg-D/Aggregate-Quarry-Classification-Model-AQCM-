@@ -1,6 +1,6 @@
 # Aggregate Quarry Classification Model (AQCM)
 
-Neal O'Riain and Tadhg Dornan
+Authors: Neal O'Riain and Tadhg Dornan
 
 User guide for the Aggregate quarry classification model (AQCM)
 
